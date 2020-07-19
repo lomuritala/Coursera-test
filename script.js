@@ -67,7 +67,9 @@ for (var i = 0; i < names.length; i++) {
       helloSpeaker.SpeakHello(name);
   }
 }
-})(window);//
+})(window);
+//
 // Display the result array on the web page
 console.log(resultArray);
 document.getElementById("demo").innerHTML = resultArray;
+//
